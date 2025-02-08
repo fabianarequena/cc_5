@@ -45,3 +45,10 @@ console.log("Items in Cart:", cartItems);
 
 // Here we defined items in a shopping cart, then added an item and removed it with push/pop and unshift/shift
 
+
+// Task 4: Price Adjustments
+
+let prices = [1250, 1500, 2150];
+let discountedPrices = prices.map(price => price * 0.9);
+
+console.log("Discounted Prices:", discountedPrices);
