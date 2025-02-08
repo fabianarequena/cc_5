@@ -52,3 +52,13 @@ let prices = [1250, 1500, 2150];
 let discountedPrices = prices.map(price => price * 0.9);
 
 console.log("Discounted Prices:", discountedPrices);
+
+
+// Task 5: Product Availability
+
+let inventory = [8, 0, 16, 8, 0];
+let availableInventory = inventory.filter(quantity => quantity > 0);
+
+console.log("Available Inventory:", availableInventory);
+
+
