@@ -31,3 +31,17 @@ order.displayOrder();
 
 // Display details provided
 
+
+// Task 3: Shopping Cart
+
+let cartItems = ["Lip Liner", "Lip Tint", "Lip Gloss"];
+
+cartItems.push("Lip Creme");
+cartItems.pop();
+cartItems.unshift("Lip Stick");
+cartItems.shift();
+
+console.log("Items in Cart:", cartItems);
+
+// Here we defined items in a shopping cart, then added an item and removed it with push/pop and unshift/shift
+
