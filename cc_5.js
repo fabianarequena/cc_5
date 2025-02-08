@@ -92,6 +92,18 @@ function calculateTax(amount, taxRate) {
     return amount * taxRate;
 }
 
-console.log(`Tax: $${calculateTax(100, 0.07)}`);
+console.log(`Tax: $${calculateTax(740, 0.07)}`);
 
 // Calculated tax using a function and a template literal log
+
+
+// Task 9: Discount Application
+
+function applyDiscount(price, discountRate) {
+    return price - (price * discountRate);
+};
+
+console.log(`Discounted Price: $${applyDiscount(740, 0.15)}`);
+
+// Created a function to take off a discount to reduce an item at a given price, logged with a template literal
+
