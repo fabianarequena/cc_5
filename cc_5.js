@@ -107,3 +107,11 @@ console.log(`Discounted Price: $${applyDiscount(740, 0.15)}`);
 
 // Created a function to take off a discount to reduce an item at a given price, logged with a template literal
 
+
+// Task 10: Loyalty Points
+
+const calculatePoints = purchaseAmount => purchaseAmount / 10;
+let points = calculatePoints(250);
+console.log(`Earned points: ${points}`);
+
+// Created a funciton to calculate loyalty points, 10 points for ervery $1 spent
