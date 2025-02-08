@@ -53,6 +53,8 @@ let discountedPrices = prices.map(price => price * 0.9);
 
 console.log("Discounted Prices:", discountedPrices);
 
+// Taking off 10% of a given prive using the map function
+
 
 // Task 5: Product Availability
 
@@ -61,4 +63,15 @@ let availableInventory = inventory.filter(quantity => quantity > 0);
 
 console.log("Available Inventory:", availableInventory);
 
+// Filtering quaniities that are 0 or less to show what is in stock and what isn't
+
+
+// Task 6: Revenue Calculation
+
+let sales = [500, 300, 200, 400];
+let totalRevenue = sales.reduce( (acc, sale) => acc + sale );
+
+console.log("Total Revenue:", totalRevenue);
+
+// Adding up sales to calculate total revenue using the reduce and accumulate fucntions
 
