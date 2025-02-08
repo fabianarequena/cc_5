@@ -85,3 +85,13 @@ console.log("Found Customer:", foundCustomer);
 
 // Given an array, I found a certian cutomer and gave output with find function
 
+
+// Task 8: Tax Calculation
+
+function calculateTax(amount, taxRate) {
+    return amount * taxRate;
+}
+
+console.log(`Tax: $${calculateTax(100, 0.07)}`);
+
+// Calculated tax using a function and a template literal log
